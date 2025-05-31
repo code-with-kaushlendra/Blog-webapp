@@ -29,7 +29,10 @@
             <th>Blog_img</th>
                 <th>Status</th>
             <th>Created_at</th>
+<<<<<<< HEAD
             <th>Updated_at</th>
+=======
+>>>>>>> 1e144a9 (first commit)
             <th>Action</th>
         </thead>
         
@@ -53,10 +56,18 @@
             <td><%= row.get("Blog_img") %></td>
               <td><%= row.get("Status") %></td>
             <td><%= row.get("Created_at") %></td>
+<<<<<<< HEAD
               <td><%= row.get("Updated_at") %></td>
              
             
       <td  style="width:200px; padding:8px;"> <div style="display: flex; justify-content: space-between; align-items: center;"> <span style="display: none;"><%= row.get("Id") %></span><a href="view?deleteId=<%=row.get("Id")%>" onclick="return confirm('Are you sure you want to delete this record?');" style="color:red; text-decoration:none; font-weight:bold;">Delete</a></div></td>
+=======
+             <%--   <td><%= row.get("Updated_at") %></td> --%>
+             
+            
+      <td  style="width:200px; padding:8px;"> <div style="display: flex; justify-content: space-between; align-items: center;"> <span style="display: none;"><%= row.get("Id") %></span><a href="view?deleteId=<%=row.get("Id")%>" onclick="return confirm('Are you sure you want to delete this record?');" style="color:red; text-decoration:none; font-weight:bold;">Delete</a></div>
+     <div style="display: flex; width:200px; padding:8px; justify-content: space-between; align-items: center;"> <span style="display: none;"><%= row.get("Id") %></span><a href="view?updateId=<%=row.get("Id")%>" onclick="return confirm('Are you sure you want to update this record?');" style="color:red; text-decoration:none; font-weight:bold;">Edit</a></div></td>
+>>>>>>> 1e144a9 (first commit)
         </tr>
         
         

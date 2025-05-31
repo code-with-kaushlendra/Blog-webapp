@@ -32,6 +32,11 @@
 <servlet-class>in.sp.backend.Add</servlet-class>
 </servlet>
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 1e144a9 (first commit)
 <servlet-mapping>
 <servlet-name>view</servlet-name>
 <url-pattern>/view</url-pattern>
@@ -63,6 +68,48 @@
 <servlet-class>in.sp.backend.Contact</servlet-class>
 </servlet>
 
+<<<<<<< HEAD
+=======
+<servlet-mapping>
+<servlet-name>forgotpassword</servlet-name>
+<url-pattern>/forgotpassword</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>forgotpassword</servlet-name>
+<servlet-class>in.sp.backend.Forgot</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>reset</servlet-name>
+<url-pattern>/VerifyCodeServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>reset</servlet-name>
+<servlet-class>in.sp.backend.VerifyServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>update</servlet-name>
+<url-pattern>/UpdateServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>update</servlet-name>
+<servlet-class>in.sp.backend.UpdateServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>ResetPassword</servlet-name>
+<url-pattern>/ResetPassword</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>ResetPassword</servlet-name>
+<servlet-class>in.sp.backend.ResetPassword</servlet-class>
+</servlet>
+
+>>>>>>> 1e144a9 (first commit)
 
 
 </web-app>

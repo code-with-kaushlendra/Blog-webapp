@@ -41,7 +41,13 @@ body::before {
  flex-direction:column;
  background:#f9f9f9;
  gap:15px;
+<<<<<<< HEAD
  }
+=======
+ align-items:center;
+ }
+ 
+>>>>>>> 1e144a9 (first commit)
   input[type="text"],input[type="password"]{
  padding:12px;
  border-radius:6px;
@@ -59,10 +65,27 @@ body::before {
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
+<<<<<<< HEAD
+=======
+.title{
+text-align:center;
+margin-top:0;
+color:red;
+
+}
+.container{
+display:flex;
+align-items:center;
+justify-content:center;
+height:100vh;
+
+}
+>>>>>>> 1e144a9 (first commit)
  </style>
 
 </head>
 <body>
+<<<<<<< HEAD
 <div align=center>
 <h3>Login</h3>
 </div>
@@ -72,6 +95,22 @@ body::before {
 <input type="password" name="pass1" placeholder="Enter Your Password"/>
  <button type="submit">Login</button>
 </form>
+=======
+<div class="container">
+<form action="loginForm" method="post" class="login-form">
+
+<h3 class="title">Login</h3>
+
+
+<input type="text" name="email1" placeholder="Enter Your Email" required/>
+<input type="password" name="pass1" placeholder="Enter Your Password" required/>
+ <button type="submit">Login</button>
+ <a href="reset_password.jsp">Reset Password</a>
+ <a href="register.jsp">Sign Up</a>
+</form>
+</div>
+
+>>>>>>> 1e144a9 (first commit)
 
 </body>
 </html>

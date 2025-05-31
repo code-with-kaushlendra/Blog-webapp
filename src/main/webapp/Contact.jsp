@@ -33,7 +33,11 @@ border-radius:15px;
 
 }
 input[type="text"]{
+<<<<<<< HEAD
 width:100%;
+=======
+width:90%;
+>>>>>>> 1e144a9 (first commit)
 padding:12px 10px;
 margin:10px 0;
 font-size:16px;

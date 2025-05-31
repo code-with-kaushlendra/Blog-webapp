@@ -10,10 +10,18 @@ body{
 background:#f0f2f5;
 margin:0px;
 padding:0px;
+<<<<<<< HEAD
 }
 .blog-form{
 max-width:500px;
 margin:50px auto;
+=======
+background:url('images/reg.jpg');
+}
+.blog-form{
+max-width:500px;
+margin:30px auto;
+>>>>>>> 1e144a9 (first commit)
 padding:30px 25px;
 background:#ffffffee;
 border-radius:15px;
@@ -36,7 +44,11 @@ font-weight:bold;
 background-color:#2980b9;
 }
 .blog-form input[type="text"]{
+<<<<<<< HEAD
 width:100%;
+=======
+width:90%;
+>>>>>>> 1e144a9 (first commit)
 padding:12px 15px;
 margin:10px 0 20px;
 font-size:16px;

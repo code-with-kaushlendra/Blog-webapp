@@ -40,6 +40,18 @@ body::before {
  flex-direction:column;
  background:#f9f9f9;
  gap:15px;
+<<<<<<< HEAD
+=======
+ align-items:center;
+ }
+ input[type="email"],input[type="email"]{
+ padding:12px;
+ border-radius:6px;
+ border:1px solid #ccc;
+ font-size:15px;
+ 
+ 
+>>>>>>> 1e144a9 (first commit)
  }
  input[type="text"],input[type="password"]{
  padding:12px;
@@ -58,12 +70,27 @@ body::before {
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
+<<<<<<< HEAD
+=======
+.container{
+display:flex;
+align-items:center;
+justify-content:center;
+height:100vh;
+}
+.title{
+text-align:center;
+margin-top:0;
+color:red;
+}
+>>>>>>> 1e144a9 (first commit)
  </style>
 
 
 
 </head>
 <body> 
+<<<<<<< HEAD
 <div align=center>
 <h3>Register</h3>
 </div>
@@ -76,6 +103,24 @@ body::before {
 
 
 </form>
+=======
+
+
+<div class="container">
+<form action="Register" method="post" class="reg-form">
+
+<h3 class="title" >Sign Up</h3>
+
+<input type="email" name="email1" placeholder="Enter Email" required/>
+<input type="password" name="pass1" placeholder="Enter Password" required/>
+  <button type="submit">Register</button>
+  <a href="register.jsp">New User</a>
+  <a href="loginForm.jsp">Login</a>
+  <a href="home.jsp">Go Home</a>
+  
+</form>
+</div>
+>>>>>>> 1e144a9 (first commit)
 
 
 
